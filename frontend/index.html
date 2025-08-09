@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bec8b2683f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header><h2>CSV-To-Excel</h2></header>
+        <div class="input_type_inf">
+            <h3>Input</h3>
+            <h3>Output</h3>
+        </div>
+        <div class="settup">
+            <div class="first_settup">
+                <div class="csv_name_input_container">
+                    <h4 class="csv_name_input_header">Name of the CSV file</h4>
+                    <div class="csv_name_input">
+                        <div class="exception_inf"><h4>Loading...</h4></div>
+                    </div>
+                </div>
+                <div class="excel_name_output_container">
+                    <h4 class="excel_name_output_header">Name of the excel file</h4>
+                    <input type="text" class="excel_name_output_custom" placeholder="Custom name">
+                    <div class="excel_name_output_content">
+                        <div class="exception_inf"><h4>Loading...</h4></div>
+                    </div>
+                </div>
+            </div>
+            <div class="second_settup">
+                <div class="csv_data_separator_container">
+                    <h4 class="csv_data_separator_header">Separator of the CSV file</h4>
+                    <input type="text" class="csv_data_separator" placeholder="Custom separator">
+                    <div class="example_separators">
+                        <button class="separator"><h3>;</h3></button>
+                        <button class="separator"><h3>,</h3></button>
+                        <button class="separator"><h3>:</h3></button>
+                        <button class="separator"><h3>|</h3></button>
+                        <button class="separator"><h3>`</h3></button>
+                        <button class="separator"><h3>~</h3></button>
+                        <button class="separator"><h3>^</h3></button>
+                        <button class="separator"><h3>#</h3></button>
+                    </div>
+                </div>
+                <div class="excell_sheet_input_container">
+                    <h4 class="excel_sheet_input_header">Name of the excel sheet</h4>
+                    <input type="text" class="excel_sheet_input" placeholder="Custom excel sheet name">
+                    <div class="excel_sheet_input_content"><div class="exception_inf"><h4>Choise the excel file</h4></div></div>
+                </div>
+            </div>
+        </div>
+        <button class="run_script_btn"><h3>Run Script</h3></button>
+        <div class="exception_inf result_info"><h4></h4></div></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

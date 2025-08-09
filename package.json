@@ -1,0 +1,26 @@
+{
+  "name": "csv-to-excel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "express": "^5.1.0",
+    "livereload": "^0.9.3",
+    "xlsx": "^0.18.5"
+  },
+  "bin": "./backend/server.js",
+  "pkg": {
+    "assets": [
+      "./frontend/*",
+      "./build/CSV-To-Excel.exe",
+      "./build/run.exe"
+    ]
+  }
+}
